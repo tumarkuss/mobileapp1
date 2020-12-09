@@ -1,0 +1,14 @@
+npm install @react-navigation/native @react-navigation/bottom-tabs react-native-screens react-native-stack react-navigation react-native-reanimated @react-navigation/stack react-native-swiper @react-native-community/masked-view react-native-image-header-scroll-view
+npm install --global expo-cli
+npm install
+
+//npm install --global expo-cli
+
+
+
+expo init testingit <------- перезагрузка всех базовых пакетов. Остальные файлы остаются:
+App.js итд остаются.
+
+npm list --depth=0 <---------- Посмотреть пакеты установленные.
+
+npm uninstall -S/-D/-g PACKAGE_NAME <----------Удалить определенный пакет.
